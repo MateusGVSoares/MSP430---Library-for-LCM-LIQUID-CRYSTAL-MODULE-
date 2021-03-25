@@ -30,9 +30,13 @@
   -   Keyboard 
   -   LCM
 
-# 																					MSP430 Real Time Clock									
 
-​	Project of a <u>Real Time Clock</u> for the **MSP430 Micro Controller Family**, developed using **IAR IDE**,in the **Third Year of CEFET-MG Electronics Course**
+
+# Projects
+
+# 																						MSP430 Real Time Clock									
+
+​		Project of a <u>Real Time Clock</u> for the **MSP430 Micro Controller Family**, developed using **IAR IDE**,in the **Third Year of CEFET-MG Electronics Course**
 
 ------
 
@@ -102,3 +106,48 @@
 
 ![](C:\Users\mateu\Desktop\Códigos JK - GIT - Porfólio\Diagram for GITHUB.png)
 
+
+
+
+
+# Libraries
+
+# 	Keyboard:
+
+​			Main functions to work with a 4x4 membrane keyboard.
+
+
+
+- ### Functions :
+
+  - LeColunas :
+    - Controls the MUX to obtain the current valor of the columns.
+  - FctTCL :
+    - Combines LeColunas with other control bits of P1 I/O to obtain the key that was pressed.
+
+
+
+
+
+# 	LCM:
+
+​			Main functions to work with a LCD module.
+
+
+
+- ### Functions:
+
+  - configuraLCM :
+    - Configures the I/O port of MSP430 to work with the LCM.
+  - enviaComando :
+    - Prepares and send a byte to the LCM that is a command. 
+  - EnviaDado :
+    - Prepares and send a byte to the LCM that is a data. 
+  - programaLCM :
+    - Configures the LCM  to work with the MSP430.
+  - PosCursor :
+    - Changes the cursor to the position that was given as a parameter to the function. 
+  - ImprimeString :
+    - Prints a string in the LCD.
+  - imprimeCampo :
+    - Changes the cursor to a given position and prints a given decimal valor lesser than 100.
