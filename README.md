@@ -23,10 +23,6 @@
 
   
 
-- ### Language : 
-
-  - **C**
-
 - ### Projects:
   -   	Real-Time Clock 
 
